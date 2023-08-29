@@ -1,0 +1,8 @@
+import Flask
+
+$env:FLASK_APP="server.py"
+
+$env:FLASK_DEBUG="1"		        # with this command changes get reflected to website in new loading
+					# without typing flask run command again and again
+
+flask run
