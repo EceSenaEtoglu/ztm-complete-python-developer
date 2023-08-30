@@ -1,0 +1,19 @@
+-DATABASES-
+
+>Why do we need databases ?
+
+  *If data and server is in the same system and system breaks we lose access to data (.csv files in your computer)
+  *That is why we need DataBases
+	 
+
+>TYPES
+
+   >Relational  (PostgreSQL, SQLite, MySQL)
+
+	*Needs a predefined structure (info in different relational tables)
+	*SQL as query language
+
+   >NonRelational (MongoDB,
+
+	*No predefined structure needed (all info in one document)
+	*Use when: Data requirements are not clear, massive amount of unstructured data

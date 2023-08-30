@@ -1,0 +1,21 @@
+from frontend templates to portfolio
+
+
+>place htmls to template, statics to static file
+
+>fix hrefs in htmls
+
+>create routes
+
+>to get data from browser,
+ <form action =/yoururl method = "post"
+
+> to parse data add name tags
+
+>see Flask documentation on how to get request
+
+>create new route with /yoururl to process request
+
+> store data in a database
+
+>deploy your website using pythonanywhere (building portfolio 8)
