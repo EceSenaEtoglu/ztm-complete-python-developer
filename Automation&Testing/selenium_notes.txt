@@ -1,0 +1,31 @@
+extra to the notes on pdf,
+
+>useful links: 
+	https://demo.seleniumeasy.com/basic-first-form-demo.html, https://selenium-python.readthedocs.io/
+
+
+>if you are getting a pop op on the seleniumeasydemo or other site
+	try this approach
+
+	chrome_browser.implicitly_wait(1)  # to avoid "not interactable" (basically button not being clicked error, this happens because selenium is so fast
+	tries to click before the site is downloaded)
+
+	popup = chrome_browser.find_element_by_id('at-cv-lightbox-close')
+	popup.click()
+
+
+>ideas and summary
+
+	-*Have the power to automate browsing, also usage on OS like ios android
+
+	-*Good and bad ways to use automation
+
+  	-Testing purposes
+
+  	-Bots that go through websites (imagine!)
+  	-Go through posts on reddit, increase the vote count for a competition, text your facebook friends.....
+
+	-* Systems track your behaviour, understand that you are not a human 
+  	- the wait command!
+
+	-* Use it responsibly, use it in your own/ company products!
