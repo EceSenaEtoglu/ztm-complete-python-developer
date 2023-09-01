@@ -46,7 +46,7 @@ def get_articles(num_of_pages, min_vote_point):
         for idx in range(len(links)):
 
             # return the HTML element in a list
-            # [< span class ="score" id="score_37279109" > 653 points < /span >]
+            # vote = [< span class ="score" id="score_37279109" > 653 points < /span >]
             vote = subtexts[idx].select(".score")
 
             # if article has associated vote
