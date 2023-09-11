@@ -1,0 +1,32 @@
+*** Why, Where***
+
+Useful for advanced patterns, develop as the need arises
+Used in email validation, password validation to protect databases from dummy values
+No one remembers all, google it. 
+https://regex101.com/ helpful testing, quick doc ground
+
+
+***Some Rules***
+
+"The rain in spain"
+
+"ai" > ["ai,"ai"]
+
+"[ai]"  > ["a","i","i","a","i"]
+
+
+----summary----:
+
+[blabla] : outputs single character
+blabla   : looks for exactly blabla
+
+-----rules-----:
+
+[abc] : either a either b either c
+
+[^abc]: neither a, neither b nor c
+
+[a - z] : a single char from a-z
+
+a+ : [1,inf) times a
+a* : [0,inf) times a
