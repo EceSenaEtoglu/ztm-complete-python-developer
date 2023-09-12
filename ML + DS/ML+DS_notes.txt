@@ -1,0 +1,21 @@
+1-import the data
+
+	-> Used kaggle,scikit learn to import a dataset in the course
+
+2-clean the data
+
+	-> Used pandas to manipulate data
+   	-> Used seaborn and bokeh (interactive, (used hovertools) to visualize data
+
+3-split data training set / test set
+	-> Used scikit learn
+
+4-create model
+
+	-> Used scikit learn 
+	-> Used KNN algorithm on iris dataset 
+
+5-improve model
+
+         -> changing the ratio of test / training size
+         -> use different algorithm / change curr algorithm parameters
