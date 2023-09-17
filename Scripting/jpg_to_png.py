@@ -27,11 +27,12 @@ def JPG_to_PNG_converter(src_im_folder,dest_folder):
 
         image.save(dest_folder + im_file_name,new_ext)
 
-# get path of image data
-source_folder = sys.argv[1]
-
-# get path of new directory to store the images
-dest_folder = sys.argv[2]
 
 if __name__ == "__main__":
+    # get path of image data
+    source_folder = sys.argv[1]
+
+    # get path of new directory to store the images
+    dest_folder = sys.argv[2]
+
     JPG_to_PNG_converter(source_folder,dest_folder)
