@@ -13,3 +13,7 @@ Some exercises are taken directly from the course and some I came up with to dee
 
 - [GitHub Repository](https://github.com/EceSenaEtoglu/ztm-complete-python-developer/tree/main/Scripting/Passwordleakchecker)
 - Description: Use this script to check if your password has been detected in a data breach.
+
+### Pdf Merger, Image Converter
+- [Pdf Merger](https://github.com/EceSenaEtoglu/ztm-complete-python-developer/tree/main/Scripting/Passwordleakchecker)
+- [Image Converter](https://github.com/EceSenaEtoglu/ztm-complete-python-developer/tree/main/Scripting/JpgToPng)
