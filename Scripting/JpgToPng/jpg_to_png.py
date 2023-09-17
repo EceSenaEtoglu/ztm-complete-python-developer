@@ -10,7 +10,7 @@ def JPG_to_PNG_converter(src_im_folder,dest_folder):
 
     # create the new directory if it does not exist
     try:
-        os.makedirs(dest_folder)
+        os.makedirs(dest_folder,exist_ok = True)
     except FileExistsError:
         pass
 
